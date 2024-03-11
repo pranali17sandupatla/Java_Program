@@ -70,19 +70,25 @@ public class CalculateBMI
         categorizeBMI(bmi);
     }
 
-    public static double calculateBMI(double weight, double height) {
+    public static double calculateBMI(double weight, double height) 
+	{
         double bmi = weight / (height * height);
         return bmi;
     }
 
-    public static void categorizeBMI(double bmi) {
-        if (bmi < 18.5) {
+    public static void categorizeBMI(double bmi) 
+	{
+        if (bmi < 18.5) 
+		{
             System.out.println("You are underweight");
-        } else if (bmi >= 18.5 && bmi < 25) {
+        } else if (bmi >= 18.5 && bmi < 25) 
+		{
             System.out.println("You are normal weight");
-        } else if (bmi >= 25 && bmi < 30) {
+        } else if (bmi >= 25 && bmi < 30) 
+		{
             System.out.println("You are overweight");
-        } else {
+        } else 
+		{
             System.out.println("You are obese");
         }
     }

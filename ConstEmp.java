@@ -12,9 +12,6 @@ class Const
 		this.emp_name="Pranali";
 		this.salary=50000;
 		
-		this.emp_id=2;
-		this.emp_name="Priyanka";
-		this.salary=60000;
 	}
 	void printData()//print the data of object
 	{
